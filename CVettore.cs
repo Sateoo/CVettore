@@ -47,5 +47,17 @@ public class Vettore {
         }
         return vet[idx-1];
     }
+    public bool EliminaUltimo()
+    {
+        if(idx==0)
+        {
+            if(vet.Length==0)
+                return false;
+            return false;
+        }
+        vet[idx-1]=0;
+        idx--;
+        return true;
+    }
 
 }
